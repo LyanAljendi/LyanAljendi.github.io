@@ -46,13 +46,13 @@ function setup() {
     fill("black");
     textSize(40);
     button = createButton("Clear");
-    button.position(30, 150);
+    button.position(30, 250);
     button.mousePressed(resetpoints);
     button = createButton("Voronoi");
-    button.position(80, 150);
+    button.position(80, 250);
     button.mousePressed(calculateCells);
     button = createButton("Compute Cell");
-    button.position(160, 150);
+    button.position(160, 250);
     button.mousePressed(function () { computeCell(points[0]); });
 
 
